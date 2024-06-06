@@ -76,10 +76,9 @@
   python web_demo_2.5.py --device cuda
   ```
 * 在执行前，你需要修改web_demo_2.5.py里面的部分内容：
-  ```python
-  1. 第27行，将model_path修改为你自己微调后的模型位置，默认模型的存储位置是finetune/output
-  2. 倒数第1行，修改server_name为你自己的IP地址
-  ``` 
+  * 第27行，将model_path修改为你自己微调后的模型位置，默认模型的存储位置是finetune/output
+  * 倒数第1行，修改server_name为你自己的IP地址
+
 ### 项目参与者
 1. 本项目由山西农业大学开发完成，项目主要开发人员：[胡志伟](https://zhiweihu1103.github.io)
 2. 若有相关使用需求或者相关数据集提供，欢迎与我们取得联系：zhiweihu@whu.edu.cn

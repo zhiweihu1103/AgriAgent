@@ -70,11 +70,11 @@ pip install -r requirements.txt
 
 若有相关使用需求或者相关数据集提供，欢迎与我们取得联系：zhiweihu@whu.edu.cn
 ### 致谢
-1. 本项目基于现有开源项目二次开发，在此对相关项目和研发人员表示感谢。
-* [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+本项目基于现有开源项目二次开发，在此对相关项目和研发人员表示感谢。
+* [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)
 ## Star History
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zhiweihu1103/AgriMa&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zhiweihu1103/AgriMa&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zhiweihu1103/AgriMa&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zhiweihu1103/AgriAgent&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zhiweihu1103/AgriAgent&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zhiweihu1103/AgriAgent&type=Date" />
 </picture>

@@ -66,6 +66,10 @@ pip install -r requirements.txt
   ```python
   sh finetune_lora.sh
   ```
+* 如果在训练过程中出现显存溢出问题，可以通过调整finetune_lora.sh参数进行解决：
+  * --model_max_length：减小模型最大输入长度限制
+  * --scale_resolution：降低图像分辨率
+  * --tune_vision false：设置为false
 4. Web页面测试
 
 ### 项目参与者

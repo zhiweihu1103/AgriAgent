@@ -51,7 +51,7 @@
 	}]
   }
   ```
-* 如需获取AgriAgent微调指令集，请发送邮件至zhiweihu@whu.edu.cn与我们联系，考虑到目前我们仍然在不断扩充指令集，最终版会在适时进行公布；
+* 如需获取AgriAgent微调指令集，请发送邮件至zhiweihu@whu.edu.cn与我们联系，目前我们仍然在不断扩充指令集，最终版会在适时进行公布；
 3. 模型微调
 * 进入finetune/finetune_lora.sh，修改下面内容：
   ```python

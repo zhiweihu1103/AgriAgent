@@ -14,7 +14,7 @@
 - [ ] 发布AgriAgent技术评测报告;
 ### 数据集说明
 * 目前支持的10种农作物类型包括：苹果/樱桃/玉米/葡萄/柑桔/桃/辣椒/马铃薯/草莓/番茄;
-* 我们基于GLM-3-Turbo进行文本指令集构建;
+* 文本数据部分，我们基于GLM-3-Turbo进行文本指令集构建，图像数据来自于: [这里](https://github.com/xungeer29/AI-Challenger-Plant-Disease-Recognition);
 * 指令集样例形式如下：
 ```python
 

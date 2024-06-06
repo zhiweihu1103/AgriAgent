@@ -20,12 +20,12 @@
 
 ### 模型训练
 1. 开发环境搭建
-  ```python
-  conda create -n agriagent python=3.10
-  conda activate agrima
-  cd AgriAgent
-  pip install -r requirements.txt
-  ```
+   ```python
+   conda create -n agriagent python=3.10
+   conda activate agrima
+   cd AgriAgent
+   pip install -r requirements.txt
+   ```
 2. 指令集构建
 * 我们给出采用的指令集格式样例如下：
 ```python

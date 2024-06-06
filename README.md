@@ -25,7 +25,7 @@
    pip install -r requirements.txt
    ```
 2. 指令集构建
-* 我们给出采用的指令集格式样例如下：
+* 我们采用的指令集格式样例如下：
   ```python
   {
 	"id": "21039",

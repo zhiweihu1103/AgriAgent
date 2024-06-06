@@ -15,7 +15,7 @@
 * 目前已支持的10种农作物类型包括：苹果/樱桃/玉米/葡萄/柑桔/桃/辣椒/马铃薯/草莓/番茄;
 * 文本数据部分，我们基于[GLM-3-Turbo](https://github.com/THUDM/ChatGLM3)进行文本指令集构建，图像数据来自于: [这里](https://github.com/xungeer29/AI-Challenger-Plant-Disease-Recognition);
 * 我们欢迎与业界人士的交流与合作，如有数据集提供或者合作事项，请与zhiweihu@whu.edu.cn进行联系；
-### 部分测试结果
+### 部分测试结果展示
 
 ### 模型训练
 1. 开发环境搭建

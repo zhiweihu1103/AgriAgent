@@ -64,11 +64,8 @@ pip install -r requirements.txt
 4. Web页面测试
 
 ### 项目参与者
-本项目由山西大学开发完成
-
-项目主要开发人员：[胡志伟](https://github.com/zhiweihu1103)
-
-若有相关使用需求或者相关数据集提供，欢迎与我们取得联系：zhiweihu@whu.edu.cn
+1. 本项目由山西大学开发完成，项目主要开发人员：[胡志伟](https://github.com/zhiweihu1103)
+2. 若有相关使用需求或者相关数据集提供，欢迎与我们取得联系：zhiweihu@whu.edu.cn
 ### 致谢
 本项目基于现有开源项目二次开发，在此对相关项目和研发人员表示感谢。
 * [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)

@@ -19,7 +19,7 @@
 ```python
 {
 	"id": "21039",
-	"image": "datasets/11/f49c4a3a657daf0f0fedcf63b2c816d4.jpg",
+	"image": "f49c4a3a657daf0f0fedcf63b2c816d4.jpg",
 	"conversations": [{
 		"role": "user",
 		"content": "<image>\n你知道这是什么植物吗？如果这株植物状态不好，可能是哪些病害造成的？"

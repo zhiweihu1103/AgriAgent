@@ -55,9 +55,12 @@ pip install -r requirements.txt
 ```
 * 如需获取AgriAgent微调指令集，请发送邮件至zhiweihu@whu.edu.cn与我们联系，考虑到目前我们仍然在不断扩充指令集，最终版会在适时进行公布；
 3. 模型微调
-```python
-1. 
-```
+* 进入finetune/finetune_lora.sh，修改下面内容：
+  * MODEL="openbmb/MiniCPM-Llama3-V-2_5" # 修改成你自己的MiniCPM-Llama3-V-2_5预训练权重位置
+  * DATA="path/to/trainging_data" # 训练集位置，必须是json格式
+  * EVAL_DATA="path/to/test_data" # 测试集位置，必须是json格式
+  * LLM_TYPE="llama3" 
+* 执行：sh finetune_lora.sh
 4. Web页面测试
 
 ### 项目参与者

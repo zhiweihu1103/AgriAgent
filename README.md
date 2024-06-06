@@ -20,7 +20,7 @@
 1. 开发环境搭建
    ```python
    conda create -n agriagent python=3.10
-   conda activate agrima
+   conda activate agriagent
    cd AgriAgent
    pip install -r requirements.txt
    ```

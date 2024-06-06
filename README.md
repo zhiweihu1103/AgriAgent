@@ -15,7 +15,19 @@
 ### 数据集说明
 * 目前已支持的10种农作物类型包括：苹果/樱桃/玉米/葡萄/柑桔/桃/辣椒/马铃薯/草莓/番茄;
 * 文本数据部分，我们基于[GLM-3-Turbo](https://github.com/THUDM/ChatGLM3)进行文本指令集构建，图像数据来自于: [这里](https://github.com/xungeer29/AI-Challenger-Plant-Disease-Recognition);
-* 指令集样例形式如下：
+* 我们欢迎与业界人士的交流与合作，如有数据集提供或者合作事项，请与zhiweihu@whu.edu.cn进行联系；
+### 部分测试结果
+
+### 模型训练
+1. 开发环境搭建
+```python
+conda create -n agriagent python=3.10
+conda activate agrima
+cd AgriAgent
+pip install -r requirements.txt
+```
+2. 指令集构建
+* 我们给出采用的指令集格式样例如下：
 ```python
 {
 	"id": "21039",
@@ -41,19 +53,6 @@
 	}]
 }
 ```
-* 我们欢迎与业界人士的交流与合作，如有数据集提供或者合作事项，请与zhiweihu@whu.edu.cn进行联系；
-### 部分测试结果
-
-### 模型训练
-1. 开发环境搭建
-```python
-conda create -n agriagent python=3.10
-conda activate agrima
-cd AgriAgent
-pip install -r requirements.txt
-```
-2. 指令集构建
-* 按照[此说明](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README_zh.md)进行指令集构建；
 * 如需获取AgriAgent微调指令集，请发送邮件至zhiweihu@whu.edu.cn与我们联系，考虑到目前我们仍然在不断扩充指令集，最终版会在适当时候进行公开；
 3. 模型微调
 4. Web页面测试

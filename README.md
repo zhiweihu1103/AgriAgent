@@ -53,8 +53,11 @@ pip install -r requirements.txt
 	}]
 }
 ```
-* 如需获取AgriAgent微调指令集，请发送邮件至zhiweihu@whu.edu.cn与我们联系，考虑到目前我们仍然在不断扩充指令集，最终版会在适当时候进行公开；
+* 如需获取AgriAgent微调指令集，请发送邮件至zhiweihu@whu.edu.cn与我们联系，考虑到目前我们仍然在不断扩充指令集，最终版会在适时进行公布；
 3. 模型微调
+```python
+1. 
+```
 4. Web页面测试
 
 ### 项目参与者

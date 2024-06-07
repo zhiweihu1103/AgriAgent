@@ -103,6 +103,8 @@
     systemctl daemon-reload
     systemctl restart ollama
     ```
+* 关于出现重复docer需要删除
+  *查看docker镜像：`docker images` 
 ### 项目参与者
 1. 本项目由山西农业大学开发完成，项目主要开发人员：[胡志伟](https://zhiweihu1103.github.io)
 2. 若有相关使用需求或者相关数据集提供，欢迎与我们取得联系：zhiweihu@whu.edu.cn

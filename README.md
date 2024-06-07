@@ -104,7 +104,12 @@
     systemctl restart ollama
     ```
 * 关于出现重复docer需要删除
-  *查看docker镜像：`docker images` 
+  * 查看docker镜像：`docker images`
+  * 删除指定镜像：`docker rmi <your-image-id>`
+  * 如果在删除过程中出现`image is being used by running container`
+    * 首先需要停止container，执行`docker stop <your-container-id>`
+    * 接着执行`docker rm <your-container-id>`
+    * 最后执行`docker rmi <your-image-id>`
 ### 项目参与者
 1. 本项目由山西农业大学开发完成，项目主要开发人员：[胡志伟](https://zhiweihu1103.github.io)
 2. 若有相关使用需求或者相关数据集提供，欢迎与我们取得联系：zhiweihu@whu.edu.cn

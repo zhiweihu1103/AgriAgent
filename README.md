@@ -1,6 +1,4 @@
-<div align="center">
-  <video src="demo.mp4">
-</div>
+https://github.com/zhiweihu1103/AgriAgent/assets/17820697/091e3b43-e791-4d97-9929-0a7f049b4497
 ### 模型简介
 稷丰•首个开源中文多模态农业大模型是由山西农业大学研发，以[MiniCPM-Llama3-V 2.5](https://github.com/OpenBMB/MiniCPM-V)为底座，能够从图像、文本、气象数据等多源信息中提取有用信息，为农业生产提供全面、精准的智能化解决方案。我们致力于将稷丰应用于作物健康监测、病虫害识别、土壤肥力分析、农田管理优化等多个方面，帮助农民提升生产效率，减少资源浪费，促进农业的可持续发展。
 

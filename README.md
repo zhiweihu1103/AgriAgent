@@ -79,13 +79,23 @@
   * 倒数第1行，修改server_name为你自己的IP地址
 
 ### 一些可能的问题解决方案
-* 无法通过IP访问ollama
+* 无法通过IP访问Ollama
   * 确保你的11434端口是否外界可以访问，可以通过下面命令检查
   ```python
-  ufw ststus: 查看所有对外开放的端口
-  ufw enable: 打开防火墙
-  ufw allow 11434: 如果没有对外开放端口，执行这一行，随后执行ufw ststus确认11434是否在列表中
-  ``` 
+  1. 查看所有对外开放的端口: ufw ststus 
+  2. 打开防火墙: ufw enable 
+  3. 如果没有对外开放端口，执行这一行，随后执行ufw ststus确认11434是否在列表中: ufw allow 11434
+  ```
+  * 配置Ollama允许跨域访问
+  ```python
+  1. 打开ollama服务文件: vi /etc/systemd/system/ollama.service
+  2. 在[Service]部分下添加Environment:
+  Environment="OLLAMA_HOST=0.0.0.0"
+  Environment="OLLAMA_ORIGINS=*"
+  3. 重载systemd并重启Ollama:
+  systemctl daemon-reload
+  systemctl restart ollama
+  ```
 ### 项目参与者
 1. 本项目由山西农业大学开发完成，项目主要开发人员：[胡志伟](https://zhiweihu1103.github.io)
 2. 若有相关使用需求或者相关数据集提供，欢迎与我们取得联系：zhiweihu@whu.edu.cn

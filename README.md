@@ -79,11 +79,12 @@
   * 倒数第1行，修改server_name为你自己的IP地址
 5.  Open WebUI页面测试
   * 安装Ollama
-  ```python
-  curl -fsSL https://ollama.com/install.sh | sh
-  ```
-  * 输入ollama，可以查看ollama相关命令说明
-  * 输入ollama -v可以看到版本信息，说明安装成功，此外可以通过`http://IP:11434/`进行浏览器访问，如果出现`Ollama is running`说明安装成功；
+    * 执行下面命令
+    ```python
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
+    * 输入ollama，可以查看ollama相关命令说明
+    * 输入ollama -v可以看到版本信息，说明安装成功，此外可以通过`http://IP:11434/`进行浏览器访问，如果出现`Ollama is running`说明安装成功；
 ### 一些可能的问题解决方案
 * 无法通过IP访问Ollama
   * 确保你的11434端口是否外界可以访问，可以通过下面命令检查
